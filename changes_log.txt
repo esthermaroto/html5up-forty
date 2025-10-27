@@ -1,0 +1,128 @@
+Registro de Cambios:
+
+Fecha: 2023-10-27
+Descripción: Se modificó el encabezado principal y el párrafo de contenido en el banner de la página de inicio (`index.html`).
+
+```diff
+--- a/c:\Users\esthe\Downloads\html5up-forty\index.html
++++ b/c:\Users\esthe\Downloads\html5up-forty\index.html
+@@ -45,11 +45,11 @@
+Registro de Cambios:
+
+Fecha: 2023-10-27
+Descripción: Se modificó el encabezado principal y el párrafo de contenido en el banner de la página de inicio (`index.html`).
+
+```diff
+--- a/c:\Users\esthe\Downloads\html5up-forty\index.html
++++ b/c:\Users\esthe\Downloads\html5up-forty\index.html
+@@ -45,11 +45,11 @@
+ 					<section id="banner" class="major">
+ 						<div class="inner">
+ 							<header class="major">
+-								<h1>Hola, </h1>
++								<h1>Hola, mi nombre es Esther</h1>
+ 							</header>
+ 							<div class="content">
+-								<p>A responsive site template designed by HTML5 UP<br />
+-								and released under the Creative Commons.</p>
++								<p>Bienvenido a mi portafolio. Este es un sitio responsivo<br />
++								diseñado por HTML5 UP y personalizado por mí.</p>
+ 								<ul class="actions">
+ 									<li><a href="#one" class="button next scrolly">Get Started</a></li>
+ 								</ul>
+```
+
+Fecha: 2023-10-27
+Descripción: Se añadieron estilos CSS en línea al `index.html` para cambiar los colores del banner principal (fondo, título, párrafo y botón "Get Started").
+
+```diff
+--- a/c:\Users\esthe\Downloads\html5up-forty\index.html
++++ b/c:\Users\esthe\Downloads\html5up-forty\index.html
+@@ -7,6 +7,16 @@
+ 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+ 		<link rel="stylesheet" href="assets/css/main.css" />
+ 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
++		<style>
++			/* Cambios de color personalizados */
++			#banner {
++				background-color: #4CAF50 !important; /* Un verde más vibrante */
++			}
++			#banner h1 {
++				color: #FFFFFF !important; /* Texto blanco para el título */
++			}
++			#banner p {
++				color: #E0E0E0 !important; /* Un gris claro para el párrafo */
++			}
++			#banner .button.next {
++				background-color: #FFC107 !important; /* Un amarillo para el botón */
++				color: #333333 !important; /* Texto oscuro para el botón */
++			}
++		</style>
+ 	</head>
+ 	<body class="is-preload">
+Fecha: 2023-10-27
+Descripción: Se añadieron estilos CSS en línea al `index.html` para cambiar los colores del banner principal (fondo, título, párrafo y botón "Get Started").
+
+```diff
+--- a/c:\Users\esthe\Downloads\html5up-forty\index.html
++++ b/c:\Users\esthe\Downloads\html5up-forty\index.html
+@@ -7,6 +7,16 @@
+ 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+ 		<link rel="stylesheet" href="assets/css/main.css" />
+ 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
++		<style>
++			/* Cambios de color personalizados */
++			#banner {
++				background-color: #4CAF50 !important; /* Un verde más vibrante */
++			}
++			#banner h1 {
++				color: #FFFFFF !important; /* Texto blanco para el título */
++			}
++			#banner p {
++				color: #E0E0E0 !important; /* Un gris claro para el párrafo */
++			}
++			#banner .button.next {
++				background-color: #FFC107 !important; /* Un amarillo para el botón */
++				color: #333333 !important; /* Texto oscuro para el botón */
++			}
++		</style>
+ 	</head>
+ 	<body class="is-preload">
+ 
+```
+
+Fecha: 2023-10-27
+Descripción: Se añadieron estilos CSS para cambiar los colores de fondo de los recuadros (sección "tiles") en `index.html`.
+
+```diff
+--- a/c:\Users\esthe\Downloads\html5up-forty\index.html
++++ b/c:\Users\esthe\Downloads\html5up-forty\index.html
+@@ -22,6 +22,22 @@
+ 				background-color: #FFC107 !important; /* Un amarillo para el botón */
+ 				color: #333333 !important; /* Texto oscuro para el botón */
+ 			}
++
++			/* Nuevos colores para los recuadros (tiles) */
++			.tiles article:nth-child(6n - 5):before {
++				background-color: #6A5ACD !important; /* SlateBlue */
++			}
++			.tiles article:nth-child(6n - 4):before {
++				background-color: #483D8B !important; /* DarkSlateBlue */
++			}
++			.tiles article:nth-child(6n - 3):before {
++				background-color: #7B68EE !important; /* MediumSlateBlue */
++			}
++			.tiles article:nth-child(6n - 2):before {
++				background-color: #9370DB !important; /* MediumPurple */
++			}
++			.tiles article:nth-child(6n - 1):before {
++				background-color: #8A2BE2 !important; /* BlueViolet */
++			}
++			.tiles article:nth-child(6n):before {
++				background-color: #4169E1 !important; /* RoyalBlue */
++			}
+ 		</style>
+ 	</head>
+ 	<body class="is-preload">
+ 
+```
