@@ -1,6 +1,6 @@
 En el archivo :
 
->changes_log.txt 
+>cambios.txt 
 
 Se han reflejado lso cambios realizados en el *index.html* y aquí se incluyen las capturas de dichos cambios.
 
